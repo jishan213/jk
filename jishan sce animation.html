@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jishan Science Animation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        h1, h2, h3, h4 {
+            margin-top: 0;
+        }
+
+        .topic {
+            background-color: white;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .topic img {
+            max-width: 100%;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .content {
+            margin: 20px 0;
+        }
+
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jishan Science Animation</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#topics">Topics</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to 8th Grade Science</h2>
+        <p>Explore various science concepts with engaging diagrams and pictures.</p>
+    </section>
+
+    <section id="topics">
+        <h2>Science Topics</h2>
+
+        <!-- Force and Motion -->
+        <div class="topic" id="force-motion">
+            <h3>Force and Motion</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Force_and_motion_diagram.jpg" alt="Force and Motion Diagram">
+            <div class="content">
+                <p>Force and motion are fundamental concepts in physics. Force is a push or pull on an object that can cause it to change its velocity. Motion is the change in the position of an object over time. Newton's three laws of motion describe the relationship between a body and the forces acting upon it.</p>
+                <ul>
+                    <li><strong>Newton's First Law:</strong> An object at rest stays at rest, and an object in motion stays in motion unless acted upon by an external force.</li>
+                    <li><strong>Newton's Second Law:</strong> The acceleration of an object is directly proportional to the net force acting upon it and inversely proportional to its mass (F = ma).</li>
+                    <li><strong>Newton's Third Law:</strong> For every action, there is an equal and opposite reaction.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Photosynthesis -->
+        <div class="topic" id="photosynthesis">
+            <h3>Photosynthesis</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Photosynthesis_diagram.jpg/1920px-Photosynthesis_diagram.jpg" alt="Photosynthesis Diagram">
+            <div class="content">
+                <p>Photosynthesis is a process used by plants, algae, and some bacteria to convert light energy, usually from the Sun, into chemical energy that can be used to fuel the organisms' activities. This chemical energy is stored in carbohydrate molecules, such as sugars, which are synthesized from carbon dioxide and water – hence the name photosynthesis, which comes from the Greek words for "light" (phōs) and "putting together" (synthesis).</p>
+                <p>Photosynthesis can be divided into two stages: the light-dependent reactions and the light-independent reactions (Calvin cycle).</p>
+                <h4>Light-Dependent Reactions</h4>
+                <p>These reactions take place in the thylakoid membranes of the chloroplasts where chlorophyll captures light energy. The energy is used to split water molecules (H<sub>2</sub>O), releasing oxygen (O<sub>2</sub>), and transferring electrons and protons to the energy carriers ATP and NADPH.</p>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/Light_reactions_of_photosynthesis.jpg" alt="Light Reactions">
+                <p>The equation for the light-dependent reactions is:</p>
+                <pre>2H<sub>2</sub>O + 2NADP<sup>+</sup> + 3ADP + 3Pi + light → 2NADPH + 2H<sup>+</sup> + 3ATP + O<sub>2</sub></pre>
+
+                <h4>Calvin Cycle (Light-Independent Reactions)</h4>
+                <p>These reactions take place in the stroma of the chloroplasts. Here, ATP and NADPH produced in the light-dependent reactions are used to convert carbon dioxide (CO<sub>2</sub>) into glucose (C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>). This cycle does not require light directly but relies on the products of the light-dependent reactions.</p>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Calvin_cycle.jpg" alt="Calvin Cycle">
+                <p>The overall equation for photosynthesis is:</p>
+                <pre>6CO<sub>2</sub> + 6H<sub>2</sub>O + light energy → C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6O<sub>2</sub></pre>
+                <p>This process is crucial for life on Earth, as it provides the primary source of energy for nearly all organisms and is the basis of the food chain.</p>
+            </div>
+        </div>
+
+        <!-- The Solar System -->
+        <div class="topic" id="solar-system">
+            <h3>The Solar System</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Solar_sys.jpg" alt="Solar System Diagram">
+            <div class="content">
+                <p>The solar system consists of the Sun and the objects that orbit it, including eight planets, their moons, and other celestial bodies like asteroids and comets. The eight planets in our solar system are:</p>
+                <ul>
+                    <li>Mercury</li>
+                    <li>Venus</li>
+                    <li>Earth</li>
+                    <li>Mars</li>
+                    <li>Jupiter</li>
+                    <li>Saturn</li>
+                    <li>Uranus</li>
+                    <li>Neptune</li>
+                </ul>
+                <p>The Sun, a star at the center of our solar system, provides the gravitational pull that keeps these objects in orbit. Each planet has unique characteristics and orbits the Sun at different distances, resulting in varying climates and conditions.</p>
+            </div>
+        </div>
+
+        <!-- The Water Cycle -->
+        <div class="topic" id="water-cycle">
+            <h3>The Water Cycle</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Water_cycle.png" alt="Water Cycle Diagram">
+            <div class="content">
+                <p>The water cycle describes the continuous movement of water on, above, and below the surface of the Earth. It involves several key processes:</p>
+                <ul>
+                    <li><strong>Evaporation:</strong> Water from oceans, lakes, and rivers is heated by the sun and converted into vapor.</li>
+                    <li><strong>Condensation:</strong> Water vapor rises into the atmosphere and cools, forming clouds.</li>
+                    <li><strong>Precipitation:</strong> Water falls from the clouds as rain, snow, sleet, or hail.</li>
+                    <li><strong>Collection:</strong> Water returns to oceans, lakes, and rivers, and the cycle repeats.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Cell Structure and Function -->
+        <div class="topic" id="cell-structure">
+            <h3>Cell Structure and Function</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/Animal_cell_structure_en.svg" alt="Cell Structure Diagram">
+            <div class="content">
+                <p>Cells are the basic building blocks of all living organisms. There are two main types of cells: prokaryotic and eukaryotic. Prokaryotic cells, such as bacteria, do not have a nucleus, while eukaryotic cells, found in plants and animals, do have a nucleus. Key components of eukaryotic cells include:</p>
+                <ul>
+                    <li><strong>Nucleus:</strong> Contains the cell's DNA and controls its activities.</li>
+                    <li><strong>Mitochondria:</strong> Produces energy for the cell through cellular respiration.</li>
+                    <li><strong>Ribosomes:</strong> Synthesizes proteins.</li>
+                    <li><strong>Endoplasmic Reticulum (ER):</strong> Transports proteins and other materials throughout the cell. Rough ER has ribosomes, smooth ER does not.</li>
+                    <li><strong>Golgi Apparatus:</strong> Modifies, sorts, and packages proteins for secretion or use within the cell.</li>
+                    <li><strong>Cell Membrane:</strong> Controls the movement of substances in and out of the cell.</li>
+                    <li><strong>Cytoplasm:</strong> Jelly-like substance that fills the cell and contains the organelles.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Human Body Systems -->
+        <div class="topic" id="human-body-systems">
+            <h3>Human Body Systems</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/65/Human_body_systems.jpg" alt="Human Body Systems Diagram">
+            <div class="content">
+                <p>The human body is made up of several organ systems that work together to maintain homeostasis and carry out life functions. Key systems include:</p>
+                <ul>
+                    <li><strong>Circulatory System:</strong> Transports blood, nutrients, gases, and wastes throughout the body.</li>
+                    <li><strong>Digestive System:</strong> Breaks down food into nutrients that can be absorbed into the bloodstream.</li>
+                    <li><strong>Respiratory System:</strong> Exchanges oxygen and carbon dioxide between the body and the environment.</li>
+                    <li><strong>Nervous System:</strong> Controls and coordinates body activities through electrical signals.</li>
+                    <li><strong>Muscular System:</strong> Allows for movement of the body and its parts.</li>
+                    <li><strong>Skeletal System:</strong> Provides structure, protection, and support for the body.</li>
+                    <li><strong>Endocrine System:</strong> Produces hormones that regulate various body functions.</li>
+                    <li><strong>Excretory System:</strong> Removes waste products from the body.</li>
+                    <li><strong>Reproductive System:</strong> Produces offspring.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Chemical Reactions -->
+        <div class="topic" id="chemical-reactions">
+            <h3>Chemical Reactions</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Chemical_reactions.jpg" alt="Chemical Reactions Diagram">
+            <div class="content">
+                <p>Chemical reactions involve the rearrangement of atoms to form new substances. Reactants are transformed into products through chemical changes. Key concepts include:</p>
+                <ul>
+                    <li><strong>Reactants and Products:</strong> Reactants are the starting substances, and products are the new substances formed.</li>
+                    <li><strong>Law of Conservation of Mass:</strong> Matter is neither created nor destroyed in a chemical reaction.</li>
+                    <li><strong>Types of Chemical Reactions:</strong>
+                        <ul>
+                            <li><strong>Synthesis:</strong> Two or more substances combine to form a new compound (A + B → AB).</li>
+                            <li><strong>Decomposition:</strong> A compound breaks down into simpler substances (AB → A + B).</li>
+                            <li><strong>Single Replacement:</strong> One element replaces another in a compound (A + BC → AC + B).</li>
+                            <li><strong>Double Replacement:</strong> Two compounds exchange elements or ions (AB + CD → AD + CB).</li>
+                            <li><strong>Combustion:</strong> A substance reacts with oxygen, releasing energy (usually as heat and light) (CH<sub>4</sub> + 2O<sub>2</sub> → CO<sub>2</sub> + 2H<sub>2</sub>O).</li>
+                        </ul>
+                    </li>
+                    <li><strong>Energy Changes:</strong> Reactions can be exothermic (release energy) or endothermic (absorb energy).</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Electricity and Magnetism -->
+        <div class="topic" id="electricity-magnetism">
+            <h3>Electricity and Magnetism</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/88/Right-hand_grip_rule.svg" alt="Electricity and Magnetism Diagram">
+            <div class="content">
+                <p>Electricity and magnetism are closely related fields of study in physics. Key concepts include:</p>
+                <ul>
+                    <li><strong>Electric Charge:</strong> A property of particles that causes them to experience a force when placed in an electric and magnetic field. Charges can be positive or negative.</li>
+                    <li><strong>Electric Current:</strong> The flow of electric charge through a conductor, measured in amperes (A).</li>
+                    <li><strong>Voltage:</strong> The difference in electric potential energy between two points, measured in volts (V).</li>
+                    <li><strong>Resistance:</strong> The opposition to the flow of electric current, measured in ohms (Ω).</li>
+                    <li><strong>Ohm's Law:</strong> The relationship between voltage (V), current (I), and resistance (R) is given by V = IR.</li>
+                    <li><strong>Magnetism:</strong> A force caused by moving electric charges, which can attract or repel objects.</li>
+                    <li><strong>Electromagnetism:</strong> The interaction between electric currents and magnetic fields. An electric current can create a magnetic field, and a changing magnetic field can induce an electric current.</li>
+                    <li><strong>Electromagnetic Induction:</strong> The process by which a changing magnetic field induces an electric current in a conductor.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Earth's Layers and Plate Tectonics -->
+        <div class="topic" id="earth-layers">
+            <h3>Earth's Layers and Plate Tectonics</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/58/Earth_cutaway_schematic.jpg" alt="Earth's Layers Diagram">
+            <div class="content">
+                <p>The Earth is composed of several layers, each with distinct properties:</p>
+                <ul>
+                    <li><strong>Crust:</strong> The outermost layer, composed of solid rock.</li>
+                    <li><strong>Mantle:</strong> A thick layer of semi-solid rock that flows slowly.</li>
+                    <li><strong>Outer Core:</strong> A layer of molten metal, primarily iron and nickel.</li>
+                    <li><strong>Inner Core:</strong> A solid sphere of metal, primarily iron and nickel, at the Earth's center.</li>
+                </ul>
+                <p>Plate tectonics is the theory that explains the movement of Earth's lithospheric plates on the asthenosphere. Key concepts include:</p>
+                <ul>
+                    <li><strong>Plate Boundaries:</strong>
+                        <ul>
+                            <li><strong>Divergent Boundaries:</strong> Plates move apart, creating new crust (e.g., mid-ocean ridges).</li>
+                            <li><strong>Convergent Boundaries:</strong> Plates move towards each other, causing subduction or mountain formation (e.g., the Himalayas).</li>
+                            <li><strong>Transform Boundaries:</strong> Plates slide past each other, causing earthquakes (e.g., the San Andreas Fault).</li>
+                        </ul>
+                    </li>
+                    <li><strong>Earthquakes:</strong> Caused by the sudden release of energy along fault lines due to plate movements.</li>
+                    <li><strong>Volcanoes:</strong> Formed by the movement of molten rock (magma) to the surface, often at plate boundaries.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Climate and Weather Patterns -->
+        <div class="topic" id="climate-weather">
+            <h3>Climate and Weather Patterns</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Global_circulation.jpg" alt="Climate and Weather Patterns Diagram">
+            <div class="content">
+                <p>Climate refers to the long-term patterns of temperature, humidity, wind, etc., in an area, while weather refers to short-term atmospheric conditions. Key concepts include:</p>
+                <ul>
+                    <li><strong>Atmosphere:</strong> The layer of gases surrounding Earth, composed primarily of nitrogen and oxygen.</li>
+                    <li><strong>Weather Systems:</strong>
+                        <ul>
+                            <li><strong>High-Pressure Systems:</strong> Associated with clear skies and calm weather.</li>
+                            <li><strong>Low-Pressure Systems:</strong> Associated with clouds, precipitation, and storms.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Climate Zones:</strong> Areas with distinct climate characteristics, such as tropical, temperate, and polar zones.</li>
+                    <li><strong>Global Wind Patterns:</strong> Winds that circulate around the Earth, driven by the uneven heating of the Earth's surface.</li>
+                    <li><strong>Ocean Currents:</strong> Large-scale movement of water in the oceans, which can affect climate and weather patterns.</li>
+                    <li><strong>El Niño and La Niña:</strong> Climate phenomena that involve changes in ocean temperatures in the Pacific, affecting global weather patterns.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Scientific Method -->
+        <div class="topic" id="scientific-method">
+            <h3>Scientific Method</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/The_Scientific_Method.jpg" alt="Scientific Method Diagram">
+            <div class="content">
+                <p>The scientific method is a systematic approach to understanding the natural world through observation, experimentation, and analysis. Steps include:</p>
+                <ul>
+                    <li><strong>Observation:</strong> Noticing and describing a phenomenon.</li>
+                    <li><strong>Question:</strong> Asking a question about the observation.</li>
+                    <li><strong>Hypothesis:</strong> Proposing a tentative explanation or answer to the question.</li>
+                    <li><strong>Experiment:</strong> Designing and conducting an experiment to test the hypothesis.</li>
+                    <li><strong>Data Collection:</strong> Gathering and recording observations and measurements.</li>
+                    <li><strong>Analysis:</strong> Interpreting the data to determine if it supports or refutes the hypothesis.</li>
+                    <li><strong>Conclusion:</strong> Drawing a conclusion based on the analysis and sharing the results.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About</h2>
+        <p>This website is designed to help 8th-grade students explore and understand key science concepts through engaging content and visuals.</p>
+    </section>
+
+    <footer>
+        <p>© 2024 Jishan Science Animation. All rights reserved.</p>
+    </footer>
+</body>
+</html>
